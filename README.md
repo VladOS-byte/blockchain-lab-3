@@ -1,5 +1,6 @@
 # blockchain-lab-3
  Alchemy Monitor on Python
+ 
  Monitor blocks on archive node and notify about price of pair updates
 - ETH/USD
 - LINK/ETH
@@ -10,6 +11,7 @@ python3 index.py
 ~~~
 
 # Log example
+~~~
 MBP-Vlad-2:blockchain-lab-3 vlad$ python3 index.py
 Connection status: Connected
 New block: 16133843
@@ -46,3 +48,4 @@ New block: 16133857
 No updates
 New block: 16133858
 No updates
+~~~
